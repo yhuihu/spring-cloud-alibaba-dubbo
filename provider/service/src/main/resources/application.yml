@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dubbo-provider
+  main:
+    allow-bean-definition-overriding: true
+
+dubbo:
+  scan:
+    base-packages: com.demo.dubbo.provider.service
+  protocol:
+    name: dubbo
+#    自动分配端口
+    port: -1
+  registry:
+    address: nacos://120.27.243.204:8848
