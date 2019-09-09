@@ -54,11 +54,20 @@
             <artifactId>spring-context-support</artifactId>
         </dependency>
 
+        <!--        Spring Cloud Alibaba Begin-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
         <!--        api-->
         <dependency>
             <groupId>com.demo</groupId>
             <artifactId>api</artifactId>
             <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-serialization-kryo</artifactId>
         </dependency>
     </dependencies>
 

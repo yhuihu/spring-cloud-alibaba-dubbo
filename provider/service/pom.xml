@@ -45,7 +45,10 @@
             <groupId>com.alibaba.spring</groupId>
             <artifactId>spring-context-support</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-serialization-kryo</artifactId>
+        </dependency>
 
         <!--        api-->
         <dependency>

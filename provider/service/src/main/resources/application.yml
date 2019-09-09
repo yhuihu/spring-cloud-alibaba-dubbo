@@ -11,5 +11,8 @@ dubbo:
     name: dubbo
 #    自动分配端口
     port: -1
+    serialization: kryo
   registry:
     address: nacos://120.27.243.204:8848
+  provider:
+    loadbalance: roundrobin

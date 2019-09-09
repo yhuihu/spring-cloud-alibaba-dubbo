@@ -10,6 +10,6 @@ import service.HelloDubboService;
 public class HelloDubboServiceImpl implements HelloDubboService {
     @Override
     public String echo(String string) {
-        return "Echo hello Dubbo";
+        return "Echo hello Dubbo"+"  "+string;
     }
 }
